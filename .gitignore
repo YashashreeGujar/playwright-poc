@@ -1,0 +1,33 @@
+# Node dependencies
+node_modules/
+
+# Playwright output folders
+test-results/
+playwright-report/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# VS Code settings (if using VS Code)
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Coverage reports (if using coverage)
+coverage/
+
+# npm or yarn lockfiles (optional, depending on your workflow)
+# If you're using yarn, uncomment the following:
+# yarn.lock
+
+# Optional: Ignore compiled output if using TypeScript
+dist/
+build/

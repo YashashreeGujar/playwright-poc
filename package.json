@@ -1,0 +1,21 @@
+{
+  "name": "playwrite-poc",
+  "version": "1.0.0",
+  "description": "Playwright Proof of Concept",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0"
+  }
+}
