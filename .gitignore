@@ -31,3 +31,8 @@ coverage/
 # Optional: Ignore compiled output if using TypeScript
 dist/
 build/
+
+# Snapshots images
+snapshotTest.spec.js-snapshots/
+
+

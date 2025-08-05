@@ -29,3 +29,11 @@ npx playwright test --headed
 
 ## Run a Specific Test File
 npx playwright test tests/example.spec.ts
+
+##Snapshot Testing
+- Run with `--update-snapshots` first to save baseline images:
+  `npx playwright test <test-file> --update-snapshots` 
+   e.g npx playwright test tests/snapshotTest.spec.js --update-snapshots
+- Later runs compare screenshots automatically.
+    e.g npx playwright test tests/snapshotTest.spec.js     
+- Snapshots are browser and OS specific.
